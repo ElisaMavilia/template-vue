@@ -1,1 +1,7 @@
-/* General scss */
+@use './partials/variables' as *;
+
+@import 'bootstrap/scss/bootstrap';
+
+h1{
+    color: $colorred;
+}
